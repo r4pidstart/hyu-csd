@@ -2,9 +2,13 @@
 
 int main(void)
 {
-    int table[30][30]={};
-    printf("Odd num:");
-    int n; scanf("%d", &n);
+    int table[30][30]={}, n;
+    while(1)
+    {
+        printf("Odd num:");
+        scanf("%d", &n);
+        if(!(n>15 || n%2==0 || n<1)) break;
+    }
     
     int x=0, y=n/2, i=0;
     while(i!=n*n)
@@ -24,7 +28,7 @@ int main(void)
     for(int i=0; i<n; i++)
     {    
         for(int j=0; j<n; j++)
-            printf("%03d ", table[i][j]);
+            printf("%d ", table[i][j]);
         printf("\n");
     }
 }
