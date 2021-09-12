@@ -33,5 +33,5 @@ int main(void)
         else arr[i].grade='F';
         printf("Student %d's grade is %c\n", i, arr[i].grade);
     }
-    
+    free(arr);
 }

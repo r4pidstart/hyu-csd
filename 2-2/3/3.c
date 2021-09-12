@@ -38,4 +38,7 @@ int main(void)
             printf("%3d ", arr[i][j]);
         printf("\n");
     }
+    for(int i=0; i<n; i++)
+        free(arr[i]);
+    free(arr);
 }
