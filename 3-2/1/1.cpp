@@ -10,7 +10,7 @@ int main(void)
         cout << "write lowercase string :";
         cin >> s;
         for(int i=0; i<s.length(); i++)
-            if('z'<s[i] || s[i]<'a')
+            if(!('a'<=s[i] && s[i]<='z'))
                 flag++;
 
         if("EXIT"==s) break;
