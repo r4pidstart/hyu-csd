@@ -1,6 +1,7 @@
 {
     "editor.fontFamily": "Consolas, Menlo, Monaco, 'Courier New', monospace",
     "files.associations": {
-        "new": "cpp"
+        "new": "cpp",
+        "iostream": "cpp"
     }
 }
