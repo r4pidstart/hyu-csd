@@ -1,6 +1,6 @@
 #include<iostream>
+#include<string>
 using namespace std;
-
 class Distance
 {
     private:
@@ -42,6 +42,4 @@ int main(void)
 
     cout << "The sum between the two distance :" << addDis(D1.getDis(), D2.getDis()) << " m\n";
     cout << "The difference between the two distance :" << subDis(D1.getDis(), D2.getDis()) << " m\n";
-
-
 }

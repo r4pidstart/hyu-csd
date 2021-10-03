@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 class Time
@@ -12,7 +13,7 @@ class Time
         }
         void setTime(int hour, int minute, int second)
         {
-            _hour=hour, _minute=minute, _second=second;
+            this->_hour=hour, this->_minute=minute, this->_second=second;
         }
         void addTime(Time &T1, Time &T2)
         {

@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 class Library
@@ -26,7 +27,9 @@ class Library
         }
         ~Library()
         {
-            delete[] _title, _author, _price;
+            delete[] _title;
+            delete[] _author;
+            delete[] _price;
         }
 };
 
