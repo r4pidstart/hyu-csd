@@ -5,7 +5,6 @@
 #include<set>
 #include<list>
 #include<deque>
-#include<algorithm>
 using namespace std;
 
 template<typename T>
