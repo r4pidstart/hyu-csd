@@ -30,7 +30,7 @@ class ColorPoint : Point
         }
         void show(void)
         {
-            cout << "The point's color is " << color << " which is on (" << x <<',' << y << ").\n";
+            cout << "The point's color is " << color << " which is on (" << x << ',' << y << ").\n";
         }
 };
 
