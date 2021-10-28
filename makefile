@@ -3,4 +3,4 @@ test: test.o
 	rm test.o
 
 test.o:
-	g++ test.cpp -ansi -Wall -pedantic-errors -c
+	g++ test.cpp -ansi -Wall -pedantic -pedantic-errors -c
