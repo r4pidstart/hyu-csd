@@ -7,7 +7,7 @@ class PublicTransport
     protected:
         int totalPrice;
     public:
-        PublicTransport():totalPrice(0){cout << "ctor";}
+        PublicTransport():totalPrice(0){}
         void show()
         {
             cout << "total price : " << totalPrice << '\n';
@@ -77,17 +77,18 @@ class Transportation : public Bus, public Train
         {
             cout << "Train Price: " << Train::getPrice() << '\n';
             cout << "Train Ticket: " << Train::getTicket() << '\n';
-            int ticket;
-            cout << "Train Ticket: "; cin >> ticket;
+            int ticket=3;
             Train::setTicket(ticket);
+            cout << "Train Ticket: " << Train::getTicket() << '\n';
         }
         void buyBus()
         {
             cout << "Bus Price: " << Bus::getPrice() << '\n';
             cout << "Bus Ticket: " << Bus::getTicket() << '\n';
-            int ticket;
-            cout << "Bus Ticket: "; cin >> ticket;
+            int ticket=2;
             Bus::setTicket(ticket);
+            cout << "Bus Ticket: " << Bus::getTicket() << '\n'; 
+            // cout << "Bus Ticket: "; cin >> ticket;
         }
 };
 
