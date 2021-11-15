@@ -102,8 +102,8 @@ int main(void)
 {
     MyInt intNum_1(10), intNum_2(20);
     MyDouble doubleNum_1(100.0), doubleNum_2(70.0);
-    cout << intNum_1+intNum_2 << '\n';
-    cout << doubleNum_2/intNum_2 << '\n';
-    cout << intNum_1*doubleNum_2 << '\n';
-    cout << doubleNum_2-doubleNum_1 << '\n';
+    cout << doubleNum_1+doubleNum_1 << '\n';
+    cout << doubleNum_2-intNum_1 << '\n';
+    cout << doubleNum_1+intNum_2 << '\n';
+    cout << doubleNum_1/doubleNum_2 << '\n';
 }
